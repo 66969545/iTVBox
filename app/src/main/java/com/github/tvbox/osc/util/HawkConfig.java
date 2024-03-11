@@ -14,14 +14,14 @@ public class HawkConfig {
 
    // public static String SEN_SUS = "57287e2d24"; //百度统计
    // public static String APP_Channel = "yanshi_huikan"; //渠道随意
-   public static final String CONFIG_URL = "https://xxxx.xxx/huikan.properties";//这里改成你自己的
+   public static final String CONFIG_URL = "http://ttws.114514.ca.eu.org/ysxstv.properties";//这里改成你自己的
 
     public static String Your_app_id = ""; //TalkingData统计id  AndroidManifest.xml里面的也需要改
     public static String Your_channel_id = ""; //渠道随意
     public static String zb_vpn = "0"; //是否开启抓包 0开启 1关闭
-    public static final String BASE_URL_ENC = "";//域名无用
+    public static final String BASE_URL_ENC = "aHR0cDovL3R0d3MuMTE0NTE0LmNhLmV1Lm9yZw";//域名无用
     public static String MMM_MMM = new String(Base64.decode(HawkConfig.BASE_URL_ENC.getBytes(), Base64.DEFAULT));
-    public static String API_KEY = "xxxxxxxxxxxxxxx"; //如意后台 接口密钥
+    public static String API_KEY = "3mKhnm35aGsde27rGEG76tT5ZhP5wjMY"; //如意后台 接口密钥
     public static final String SOURCES_FOR_SEARCH = "checked_sources_for_search";//搜索
     public static final String DOH_URL = "doh_url";
     public static final String API_URL = "api_url";
